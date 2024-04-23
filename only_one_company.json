@@ -1,0 +1,439 @@
+{
+    "balance_sheet": {
+        "BalanceSheet": {
+            "Total Assets": {
+                "Total Current Assets": {
+                    "Cash, Cash Equivalents and Short Term Investments": {
+                        "Cash and Cash Equivalents": {
+                            "Cash": "",
+                            "Cash Equivalents": ""
+                        },
+                        "Short Term Investments": {
+                            "Available-for-Sale Securities, Current": "",
+                            "Other Short Term Investments": "",
+                            "Trading/ Listed Investments, Current": ""
+                        }
+                    },
+                    "Derivative Investment and Hedging Assets, Current": "",
+                    "Inventories": {
+                        "Raw Materials, Consumables and Supplies": "",
+                        "Work-in-Process": "",
+                        "Other Inventories": "",
+                        "Inventory Allowance/Adjustments": ""
+                    },
+                    "Trade and Other Receivables, Current": {
+                        "Trade/Accounts Receivable, Current": {
+                            "Gross Trade/Accounts Receivable, Current": "",
+                            "Allowance/Adjustments for Trade/Accounts Receivable, Current": ""
+                        },
+                        "Finance Lease Receivable, Current": "",
+                        "Taxes Receivable, Current": "",
+                        "Amount Due From Related Parties, Current": "",
+                        "Other Receivables, Current": "",
+                        "Loans Receivable, Current": "",
+                        "Accrued Income/Unbilled Revenue/Cost in Excess of Billings, Current": ""
+                    },
+                    "Other Current Assets": "",
+                    "Prepayments and Deposits, Current": "",
+                    "Assets Held for Sale/Discontinued Operations, Current": ""
+                },
+                "Total Non-Current Assets": {
+                    "Net Property, Plant and Equipment": {
+                        "Gross Property, Plant and Equipment": {
+                            "Machinery, Furniture and Equipment": {
+                                "Plant and Machinery": ""
+                            },
+                            "Utility Plant": {
+                                "Electric Utility Plant": ""
+                            },
+                            "Construction in Progress and Advance Payments": "",
+                            "Properties": {
+                                "Land and Improvements": "",
+                                "Buildings and Improvements": ""
+                            }
+                        },
+                        "Accumulated Depreciation and Impairment": {
+                            "Accumulated Depreciation": {
+                                "Accumulated Depreciation of Machinery, Furniture and Equipment": {
+                                    "Accumulated Depreciation of Plant and Machinery": ""
+                                },
+                                "Accumulated Depreciation of Properties": {
+                                    "Accumulated Depreciation of Land and Improvements": "",
+                                    "Accumulated Depreciation of Buildings": ""
+                                },
+                                "Accumulated Depreciation of Utility Plant": {
+                                    "Accumulated Depreciation of Electric Utility Plant": ""
+                                },
+                                "Accumulated Depreciation of Construction in Progress": ""
+                            }
+                        }
+                    },
+                    "Net Intangible Assets": {
+                        "Gross Goodwill and Other Intangible Assets": {
+                            "Intangibles other than Goodwill": {
+                                "Software and Technology": "",
+                                "Licenses and Rights": "",
+                                "Research and Development": ""
+                            },
+                            "Goodwill": ""
+                        },
+                        "Accumulated Amortization and Impairment": {
+                            "Accumulated Amortization of Intangible Assets": {
+                                "Accumulated Amortization of Intangibles other than Goodwill": {
+                                    "Accumulated Amortization of Software and Technology": "",
+                                    "Accumulated Amortization of Licences and Rights": "",
+                                    "Accumulated Amortization of Research and Development": ""
+                                },
+                                "Accumulated Amortization of Goodwill": ""
+                            }
+                        }
+                    },
+                    "Total Long Term Investments": {
+                        "Long Term Equity Investments": {
+                            "Investments in Joint Ventures": "",
+                            "Investments in Other Ventures under Equity Method": ""
+                        },
+                        "Investment in Financial Assets, Non-Current": {
+                            "Financial Assets Designated as Fair Value Through Profit or Loss, Non-Current": "",
+                            "Financial Investment Securities, Available-for-Sale & Held-to-Maturity, Non-Current": {
+                                "Available-for-Sale Securities, Non-Current": ""
+                            },
+                            "Debt Securities, Non-Current": "",
+                            "Equity Securities/Shares, Non-Current": "",
+                            "Other Financial Assets, Non-Current": "",
+                            "Trading Securities/Assets, Non-Current": ""
+                        }
+                    },
+                    "Derivative Investment and Hedging Assets, Non-Current": "",
+                    "Trade and Other Receivables, Non-Current": {
+                        "Finance Lease Receivable, Non-Current": "",
+                        "Amount Due from Related Parties, Non-Current": "",
+                        "Other Receivables, Non-Current": "",
+                        "Loans Receivable, Non-Current": ""
+                    },
+                    "Prepayments and Deposits, Non-Current": {
+                        "Deposits Paid for Business and Fixed Assets, Non-Current": ""
+                    },
+                    "Cash Restricted or Pledged, Non-Current": "",
+                    "Deferred Tax Assets, Non-Current": "",
+                    "Investment Properties and Properties Held for Development": {
+                        "Gross Investment Properties and Properties Held for Development": "",
+                        "Accumulated Depreciation of Investment Properties and Properties Held for Development": ""
+                    }
+                }
+            },
+            "Total Liabilities": {
+                "Total Current Liabilities": {
+                    "Payables and Accrued Expenses, Current": {
+                        "Trade and Other Payables, Current": {
+                            "Trade/Accounts Payable, Current": "",
+                            "Taxes Payable, Current": "",
+                            "Other Payable, Current": ""
+                        },
+                        "Accrued Expenses, Current": ""
+                    },
+                    "Financial Liabilities, Current": {
+                        "Current Debt and Capital Lease Obligation": {
+                            "Current Debt": {
+                                "Bank Overdraft, Current Debt": "",
+                                "Bank/Credit Facilities, Current Debt": "",
+                                "Other Loans, Current Debt": ""
+                            },
+                            "Current Portion of Long Term Debt and Capital Lease": {
+                                "Current Portion of Long Term Debt": {
+                                    "Bank/Institutional Loans, Current Portion of LT Debt": "",
+                                    "Other Current Portion of LT Debt": ""
+                                }
+                            }
+                        },
+                        "Other Financial Liabilities, Current": "",
+                        "Derivative and Hedging Liabilities, Current": ""
+                    },
+                    "Provisions, Current": {
+                        "Other Provisions, Current": ""
+                    },
+                    "Other Current Liabilities": "",
+                    "Deferred Liabilities, Current": {
+                        "Deferred Income/Customer Advances/Billings in Excess of Cost, Current": "",
+                        "Other Deferred Liabilities, Current": ""
+                    },
+                    "Discontinued Operations Liabilities, Current": ""
+                },
+                "Total Non-Current Liabilities": {
+                    "Financial Liabilities, Non-Current": {
+                        "Long Term Debt and Capital Lease Obligation": {
+                            "Long Term Debt": {
+                                "Notes Payables, Non-Current": "",
+                                "Bank/Institutional Loans, Non-Current": ""
+                            }
+                        },
+                        "Other Financial Liabilities, Non-Current": "",
+                        "Derivative and Hedging Liabilities, Non-Current": ""
+                    },
+                    "Provisions, Non-Current": {
+                        "Other Provisions, Non-Current": ""
+                    },
+                    "Tax Liabilities, Non-Current": {
+                        "Deferred Tax Liabilities, Non-Current": ""
+                    },
+                    "Other Non-Current Liabilities": "",
+                    "Payables and Accrued Expenses, Non-Current": {
+                        "Trade and Other Payables, Non-Current": {
+                            "Other Payables, Non-Current": ""
+                        }
+                    },
+                    "Preferred Securities Outside Stock Equity": "",
+                    "Deferred Liabilities, Non-Current": {
+                        "Deferred Income/Customer Advances/Billings in Excess of Cost, Non-Current": ""
+                    }
+                }
+            },
+            "Total Equity": {
+                "Equity Attributable to Parent Stockholders": {
+                    "Paid in Capital": {
+                        "Capital Stock": {
+                            "Common Stock": ""
+                        },
+                        "Treasury Stock": ""
+                    },
+                    "Retained Earnings/Accumulated Deficit": "",
+                    "Reserves/Accumulated Comprehensive Income/Losses": {
+                        "Cumulative Foreign Exchange Translation Reserves/Accum.Comp.Inc": "",
+                        "Gain/Loss from Cash Flow Hedges Reserves/Accum.Comp.Inc": "",
+                        " Available for Sale Financial Investments Reserves/Accum.Comp.Inc": ""
+                    },
+                    "Other Equity Interest": ""
+                },
+                "Non-Controlling/Minority Interests in Equity": ""
+            },
+            "Debt Maturity Schedule Total": {
+                "Debt due in Year 1": "",
+                "Debt due in Year 2": "",
+                "Debt due in Year 3": "",
+                "Debt due in Year 4": "",
+                "Debt due in Year 5": "",
+                "Debt due Beyond": ""
+            },
+            "Other Contractual Obligations Maturity Schedule Total": {
+                "Other Contractual Obligations due in Year 1": "",
+                "Other Contractual Obligations due in Year 2": "",
+                "Other Contractual Obligations due in Year 3": "",
+                "Other Contractual Obligations due in Year 4": "",
+                "Other Contractual Obligations due in Year 5": "",
+                "Other Contractual Obligations due Beyond": ""
+            },
+            "Total Contractual Obligations": {
+                "Total Contractual Obligations due in year 1": "",
+                "Total Contractual Obligations due in year 2": "",
+                "Total Contractual Obligations due in year 3": "",
+                "Total Contractual Obligations due in year 4": "",
+                "Total Contractual Obligations due in year 5": "",
+                "Total Contractual Obligations due Beyond": ""
+            }
+        }
+    },
+    "cash_flow": {
+        "CashFlow": {
+            "Cash Flow from Operating Activities, Indirect": {
+                "Net Cash Flow from Continuing Operating Activities, Indirect": {
+                    "Cash Generated from Operating Activities": {
+                        "Income/Loss before Non-Cash Adjustment": "",
+                        "Total Adjustments for Non-Cash Items": {
+                            "Depreciation, Amortization and Depletion, Non-Cash Adjustment": {
+                                "Depreciation and Amortization, Non-Cash Adjustment": {
+                                    "Depreciation, Non-Cash Adjustment": ""
+                                }
+                            },
+                            "Interest and Finance Income/Expenses, Non-Cash Adjustment": "",
+                            "Other Provisions, Non-Cash Adjustment": "",
+                            "Net Investment Income/Loss, Non-Cash Adjustment": {
+                                "Share of Profit/Loss from Associates, Joint Ventures and other Equity Investments, Non-Cash Adjustment": "",
+                                "Net Foreign Currency Exchange Gain/Loss, Non-Cash Adjustment": ""
+                            },
+                            "Irregular Income/Loss, Non-Cash Adjustment": {
+                                "Gain/Loss on Disposals, Non-Cash Adjustment": {
+                                    "Gain/Loss on Disposal/Sale of Other Assets, Non-Cash Adjustment": ""
+                                },
+                                "Write off/Write down/Impairment of Capital Assets Loss/Reversal, Non-Cash Adjustment": ""
+                            },
+                            "Other Non-Cash Items": ""
+                        },
+                        "Changes in Operating Capital": {
+                            "Change in Inventories": "",
+                            "Change in Trade and Other Receivables": "",
+                            "Change in Other Current Assets": "",
+                            "Change in Payables and Accrued Expenses": {
+                                "Change in Trade and Other Payables": {
+                                    "Change in Trade/Accounts Payable": ""
+                                },
+                                "Change in Accrued Expenses": ""
+                            },
+                            "Change in Other Current Liabilities": "",
+                            "Change in Other Operating Capital": "",
+                            "Change in Provisions": ""
+                        }
+                    },
+                    "Dividend Received, CFO Indirect": "",
+                    "Interest Paid, CFO Indirect": "",
+                    "Interest Received, CFO Indirect": "",
+                    "Taxes Refund/Paid, Indirect": ""
+                }
+            },
+            "Cash Flow from Investing Activities": {
+                "Cash Flow from Continuing Investing Activities": {
+                    "Payment for Loan Granted and Repayments Received, Net": {
+                        "Cash Advances and Loans Made to Other Parties": "",
+                        "Cash Receipts from Repayment of Advances and Loans Made to Other Parties": ""
+                    },
+                    "Purchase/Sale of Business, Net": {
+                        "Purchase/Acquisition of Business": "",
+                        "Sale of Business": ""
+                    },
+                    "Purchase/Sale of Other Non-Current Assets, Net": {
+                        "Purchase of Other Non-Current Assets": "",
+                        "Sales of Other Non-Current Assets": ""
+                    },
+                    "Increase/Decrease in Restricted Cash and Cash Equivalents": ""
+                }
+            },
+            "Cash Flow from Financing Activities": {
+                "Cash Flow from Continuing Financing Activities": {
+                    "Issuance of/Payments for Common Stock, Net": {
+                        "Proceeds from Issuance of Common Stock": ""
+                    },
+                    "Issuance of/Repayments for Debt, Net": {
+                        "Issuance of/Repayments for Long Term Debt, Net": {
+                            "Proceeds from Issuance of Long Term Debt": "",
+                            "Repayments for Long Term Debt": ""
+                        }
+                    },
+                    "Issuance of/Repayments for Lease Financing": {
+                        "Repayments for Lease Financing": ""
+                    },
+                    "Net Movement in Non-Controlling/Minority Interest": "",
+                    "Cash Dividends and Interest Paid": {
+                        "Cash Dividends Paid": {
+                            "Common Stock Dividends Paid": ""
+                        }
+                    },
+                    "Cash Dividends Paid to Non-Controlling/Minority Interests": "",
+                    "Other Financing Cash Flow": ""
+                }
+            },
+            "Cash and Cash Equivalents, End of Period": {
+                "Change in Cash": "",
+                "Effect of Exchange Rate Changes": "",
+                "Cash and Cash Equivalents, Beginning of Period": ""
+            },
+            "Cash Flow Supplemental Section": {
+                "Change in Cash as Reported, Supplemental": "",
+                "Interest Paid, Supplemental": ""
+            }
+        }
+    },
+    "income_statement": {
+        "IncomeStatement": {
+            "Gross Profit": {
+                "Total Revenue": {
+                    "Business Revenue": "",
+                    "Other Revenue": ""
+                },
+                "Cost of Revenue": {
+                    "Cost of Goods and Services": "",
+                    "Purchased Fuel, Power and Gas": "",
+                    "Other Costof Revenue": "",
+                    "Operation Maintenance and Repairs": ""
+                }
+            },
+            "Operating Income/Expenses": {
+                "Selling, General and Administrative Expenses": {
+                    "Staff Costs": {
+                        "Wages and Salaries": ""
+                    }
+                },
+                "Depreciation, Amortization and Depletion": {
+                    "Depreciation and Amortization": ""
+                },
+                "Other Income/Expense, Operating": {
+                    "Other Income, Operating": "",
+                    "Other Expenses, Operating": ""
+                },
+                "Taxes Other Than Income Taxes": "",
+                "Provisions": {
+                    "Other Provisions": ""
+                }
+            },
+            "Total Operating Profit/Loss": "",
+            "Non-Operating Income/Expense, Total": {
+                "Total Net Finance Income/Expense": {
+                    "Net Interest Income/Expense": {
+                        "Interest Expense Net of Capitalized Interest": "",
+                        "Interest Income": ""
+                    },
+                    "Other Finance Income/Expenses": {
+                        "Other Finance Expenses": "",
+                        "Other Finance Income": ""
+                    }
+                },
+                "Net Investment Income": {
+                    "Income from Associates, JointVentures and Other Participating Interests": "",
+                    "Gain/Loss on Derivatives": {
+                        "Realized Gain/Loss on Derivatives": "",
+                        "Unrealized Gain/Loss on Derivatives": ""
+                    },
+                    "Gain/Loss on Foreign Currency Exchange": ""
+                },
+                "Irregular Income/Expense": {
+                    "Impairment/Write Off/Write Down of Capital Assets": "",
+                    "Write Off/Write Down of Other Assets": "",
+                    "Fixed Asset Disposals": "",
+                    "Disposal of Businesses": "",
+                    "Gain/Loss on Extinguishment of Debt": "",
+                    "Goodwill Impairment/Write Off": ""
+                },
+                "Rental Income": ""
+            },
+            "Pretax Income": "",
+            "Provision for Income Tax": "",
+            "Net Income before Extraordinary Items and Discontinued Operations": "",
+            "Net Income after Extraordinary Items and Discontinued Operations": "",
+            "Non-Controlling/Minority Interests": "",
+            "Net Income after Non-Controlling/Minority Interests": "",
+            "Net Income Available to Common Stockholders": "",
+            "Diluted Net Income Available to Common Stockholders": "",
+            "Income Statement Supplemental Section": {
+                "Reported Normalized and Operating Income/Expense Supplemental Section": {
+                    "Reported Normalized Income": "",
+                    "Reported Normalized EBITDA": ""
+                },
+                "Operating Income/Expense, Supplemental Section": {
+                    "Depreciation, Amortization and Depletion, Supplemental": {
+                        "Depreciation and Amortization, Supplemental": {
+                            "Depreciation, Supplemental": "",
+                            "Amortization, Supplemental": ""
+                        }
+                    }
+                }
+            }
+        },
+        "EpsAndWaso": {
+            "Basic EPS": {
+                "Basic EPS from Continuing Operations": ""
+            },
+            "Diluted EPS": {
+                "Diluted EPS from Continuing Operations": ""
+            },
+            "Basic Weighted Average Shares Outstanding": "",
+            "Diluted Weighted Average Shares Outstanding": "",
+            "Total Dividend Per Share": {
+                "Regular Dividend Per Share Calc": ""
+            }
+        },
+        "WasoAndEpsData": {
+            "Basic EPS": "",
+            "Diluted EPS": "",
+            "Basic WASO": "",
+            "Diluted WASO": ""
+        }
+    }
+}
