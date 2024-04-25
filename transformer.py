@@ -11,13 +11,13 @@ batch_size = 8  # how many independent sequences will we process in parallel?
 block_size = 16
 max_iters = 50000
 eval_interval = 200
-learning_rate = 1e-4
+learning_rate = 4e-3
 device = "cuda" if torch.cuda.is_available() else "cpu"
 eval_iters = 50
 n_embd = 16
-n_head = 1
-n_layer = 5
-dropout = 0.01
+n_head = 3
+n_layer = 2
+dropout = 0.1
 # ------------
 
 torch.manual_seed(1337)
@@ -57,8 +57,11 @@ def get_batch(split):
     return data, target
 
 
-naive_val_loss = F.l1_loss(data[:n, :-1, -2], data[:n, 1:, -2])
-naive_train_loss = F.l1_loss(data[n:, :-1, -2], data[n:, 1:, -2])
+naive_val_loss = F.l1_loss(data[:n, :-1, -6:-1]*1.1, data[:n, 1:, -6:-1])
+naive_train_loss = F.l1_loss(data[n:, :-1, -6:-1]*1.1, data[n:, 1:, -6:-1])
+
+print("naive_val_loss ", naive_val_loss.item())
+print("naive_train_loss ", naive_train_loss.item())
 
 @torch.no_grad()
 def estimate_loss():
@@ -140,7 +143,7 @@ class FeedFoward(nn.Module):
         super().__init__()
         self.net = nn.Sequential(
             nn.Linear(n_embd, 4 * n_embd),
-            nn.ReLU(),
+            nn.GELU(),
             nn.Linear(4 * n_embd, n_embd),
             nn.Dropout(dropout),
         )
@@ -159,9 +162,10 @@ class Block(nn.Module):
         self.sa = MultiHeadAttention(n_head, head_size)
         self.ffwd = FeedFoward(n_embd)
         self.ln1 = nn.LayerNorm(n_embd)
+        self.ln2 = nn.LayerNorm(n_embd)
 
     def forward(self, x):
-        x = x + self.sa(self.ln1(x))
+        x = x + self.sa(x)
         x = x + self.ffwd(x)
         return x
 
@@ -176,12 +180,14 @@ class GPTFinancialModel(nn.Module):
         self.blocks = nn.Sequential(
             *[Block(n_embd, n_head=n_head) for _ in range(n_layer)]
         )
+        self.ln_f = nn.LayerNorm(n_embd)
         self.lm_head = nn.Sequential(
-            nn.Linear(n_embd, 4 * n_embd),
-            nn.ReLU(),
-            nn.ReLU(),
-            nn.ReLU(),
-            nn.Linear(4 * n_embd, output_size),
+            nn.GELU(),
+            nn.GELU(),
+            nn.GELU(),
+            nn.GELU(),
+            nn.GELU(),
+            nn.Linear(n_embd, output_size),
             nn.Dropout(dropout),
         )
 
@@ -203,14 +209,14 @@ class GPTFinancialModel(nn.Module):
             torch.arange(T, device=device)
         )  # (T,n_emb)
         x = input_emb + pos_emb  # (B,T,n_emb)
-        x = self.blocks(x)  # (B,T,n_emb)
+        # x = self.blocks(x)  # (B,T,n_emb)
         # x = self.ln_f(x) # (B,T,n_emb)
         logits = self.lm_head(x)  # (B, T, output_size)
 
         if targets is None:
             loss = None
         else:
-            loss = F.l1_loss(logits[:, :, -2], targets[:, :, -2])
+            loss = F.l1_loss(logits[:, :, -6:-1], targets[:, :, -6:-1])
 
         return logits, loss
 
