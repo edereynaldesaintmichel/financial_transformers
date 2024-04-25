@@ -11,7 +11,7 @@ with open('formatted_data.json', 'r') as file:
 # with open('only_one_company.json', 'r') as file:
 #     company_data = json.load(file)
 
-with open("aggregates.json", "r") as file2:
+with open("leaves_2.json", "r") as file2:
     definition_vector = json.load(file2)
 
 
@@ -24,7 +24,6 @@ def get_all_leaves(one_company_data, prefix=""):
         leaves += get_all_leaves(value, prefix=f"{prefix}.{key}")
 
     return leaves
-
 
 def get_all_aggregates(one_company_data, prefix=""):
     aggregates = []
@@ -58,8 +57,8 @@ def get_tmp_company_data(company_data, definition_vector):
     for key in definition_vector:
         tmp = company_data
         for sub_key in key.split(sep="."):
-            tmp = tmp[sub_key]
-        vector.append([sanitize_value(tmp['value'].get(key, None))
+            tmp = tmp.get(sub_key, {})
+        vector.append([sanitize_value(tmp.get('value', {}).get(key, None))
                        for key in accepted_keys])
     vector.append([date_to_float(key)
                    for key in accepted_keys])
@@ -70,18 +69,18 @@ def get_tmp_company_data(company_data, definition_vector):
 def get_vectors(data, definition_vector):
     vectors = []
     for company_data in data:
-        try:
+        # try:
             vector = get_tmp_company_data(company_data, definition_vector)
             vectors.append(vector)
-        except Exception as e:
-            print("key was not present, skipping company")
+        # except Exception as e:
+        #     print("key was not present, skipping company")
 
     return np.array(vectors).transpose((0, 2, 1)).tolist()
 
 
 vectors = get_vectors(data, definition_vector)
 
-with open("aggregates_training_data.json", "w+") as file:
+with open("leaves_training_data.json", "w+") as file:
     file.write(json.dumps(vectors, indent=4))
 
 """

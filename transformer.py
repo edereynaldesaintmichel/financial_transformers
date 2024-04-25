@@ -6,7 +6,7 @@ import json
 import random
 
 # hyperparameters
-input_size = output_size = 15
+input_size = output_size = 159
 batch_size = 8  # how many independent sequences will we process in parallel?
 block_size = 16
 max_iters = 50000
@@ -23,7 +23,7 @@ dropout = 0.01
 torch.manual_seed(1337)
 
 # wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
-with open("aggregates_training_data.json", "r", encoding="utf-8") as f:
+with open("leaves_training_data.json", "r", encoding="utf-8") as f:
     data = torch.tensor(json.load(f))
 
 n = int(0.9 * len(data))  # first 90% will be train, rest val
